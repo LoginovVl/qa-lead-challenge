@@ -1,4 +1,4 @@
-# Ninox Signup E2E and API Tests
+# Signup E2E and API Tests
 
 ## 📦 Installation
 
