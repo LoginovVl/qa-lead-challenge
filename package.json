@@ -1,0 +1,19 @@
+{
+  "name": "ninox-signup-e2e-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test:e2e": "cucumber-js e2e/features --require-module ts-node/register --require e2e/features/step_definitions/**/*.ts",
+    "test:api": "ts-node api/tests/api.test.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.0.0",
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.2",
+    "playwright": "^1.44.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  }
+}
