@@ -15,28 +15,4 @@ build/
 # Keep example file
 !.env.example
 
-# --------------------------
-# Playwright Test Artifacts
-# --------------------------
-playwright-report/
-blob-report/
-test-results/
-trace.zip
 
-# Allure Reports
-allure-results/
-allure-report/
-
-# --------------------------
-# IDE / Editor Settings
-# --------------------------
-.vscode/
-.idea/
-*.iml
-.history/
-
-# --------------------------
-# OS Specific Files
-# --------------------------
-.DS_Store
-Thumbs.db
